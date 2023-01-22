@@ -22,9 +22,9 @@ const Contact = () => {
           className="contact_left_container">
           <h3>Just Say Hi</h3>
           <p className="contact_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil
-            unde atque voluptates, cumque molestias eveniet voluptatum animi
-            consectetur magni mollitia dolor exercitationem labore maiores!
+            Always dream and shoot higher than you know you can do. Don’t bother
+            just to be better than your contemporaries or predecessors. Try to
+            be better than yourself.
           </p>
           {contacts.map((contact) => {
             return (
