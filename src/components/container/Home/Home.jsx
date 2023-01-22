@@ -45,7 +45,6 @@ const Home = () => {
           connect with me
         </motion.a>
         <div className="web">Web Developer</div>
-        <div className="ui">UI/UX Designer</div>
         <div className="freelance">Content Creator</div>
       </div>
     </motion.div>

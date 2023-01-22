@@ -58,7 +58,11 @@ const Portfolio = () => {
         {works.map((work) => {
           return (
             <div className="workImage" key={work.id}>
-              <img src={work.img} alt="workImg" />
+              <img
+                src={work.img}
+                alt="workImg"
+                style={{ borderRadius: "10px" }}
+              />
               <motion.div
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: [0, 1] }}

@@ -1,0 +1,146 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header.active {
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.Nav_container {
+  position: relative;
+  max-width: 1224px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Nav_container .logo {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Nav_container .social_icons {
+  display: flex;
+}
+@media screen and (max-width: 800px) {
+  .Nav_container .social_icons {
+    display: none;
+  }
+}
+.Nav_container .social_icons div {
+  margin-left: 1rem;
+}
+.Nav_container .social_icons div svg {
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.6;
+  transition: 0.3s;
+  z-index: 5;
+}
+.Nav_container .social_icons div svg:hover {
+  opacity: 1;
+}
+.Nav_container .menu {
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .Nav_container .menu {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.Nav_container .menu svg {
+  width: 70%;
+  height: 70%;
+}
+.Nav_container .closeMenu {
+  background: #000;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+}
+.Nav_container .menuX {
+  color: #fff;
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.Nav_container .menuX svg {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+}
+.Nav_container .menuX li {
+  list-style: none;
+  margin-top: 1rem;
+}
+.Nav_container .menuX li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+.Nav_container .menuX li a:hover {
+  opacity: 1;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+}
+.nav_links li {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 800px) {
+  .nav_links li {
+    display: none;
+  }
+}
+.nav_links li a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+.nav_links li a:hover {
+  opacity: 1;
+}/*# sourceMappingURL=Navbar.css.map */

@@ -33,10 +33,12 @@ const About = () => {
           whileInView={{ x: [250, 0], opacity: 1 }}
           transition={{ duration: 1 }}>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-            at rem, tenetur ad ipsa sequi, optio eius laudantium vero minus
-            maxime laborum est et nemo consequatur nostrum distinctio sed, nulla
-            doloribus officiis ea eligendi explicabo.
+            My name is Dang Tung . I’m 21 years old and a student at Hanoi
+            Institute of Posts and Telecommunications Technology majoring in
+            information technology. I like reading books and cooking. I’m a
+            careful and hard-working person. I’m eager to learn new things and
+            willing to work in team. I easily adapt to new working environment
+            and take initiative in work.
           </p>
           {bios.map((bio) => {
             return (

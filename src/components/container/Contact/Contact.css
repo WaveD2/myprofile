@@ -1,0 +1,103 @@
+.contact_form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 700px) {
+  .contact_form {
+    grid-template-columns: 1fr;
+  }
+}
+.contact_form .contact_left_container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.contact_form .contact_left_container .contact_text {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.contact_form .contact_left_container .contact_left {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.contact_form .contact_left_container .contact_left .icon {
+  width: 50px;
+  height: 50px;
+  background: #8c12f0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.contact_form .contact_left_container .contact_left p {
+  font-size: 0.85rem;
+}
+.contact_form .contact_left_container .social_icons {
+  display: flex;
+  margin-top: 1rem;
+}
+.contact_form .contact_left_container .social_icons div {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.contact_form .contact_left_container .social_icons div:hover {
+  opacity: 0.8;
+}
+.contact_form .contact_left_container .social_icons div svg {
+  font-size: 1.3rem;
+}
+.contact_form .contact_right h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.contact_form .contact_right .row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+.contact_form .contact_right .row input {
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1.5rem;
+  background: #f3f3f3;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-family: "Poppins";
+}
+.contact_form .contact_right .row textarea {
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1.5rem;
+  background: #f3f3f3;
+  border-radius: 5px;
+  resize: none;
+  min-height: 150px;
+  font-size: 0.85rem;
+  font-family: "Poppins";
+}
+.contact_form .contact_right .btn {
+  margin-top: 1rem;
+  background: #8c12f0;
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  width: 4.2rem;
+}
+.contact_form .contact_right a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}/*# sourceMappingURL=Contact.css.map */

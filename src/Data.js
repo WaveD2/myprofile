@@ -20,9 +20,9 @@ import portfolio from "./assets/logo.jpeg";
 import work1 from "./assets/work1.jpg";
 import work2 from "./assets/work2.jpg";
 import work3 from "./assets/work3.png";
-import work4 from "./assets/work4.png";
-import work5 from "./assets/work5.png";
-import work6 from "./assets/work6.png";
+import work4 from "./assets/wok3.jpg";
+import work5 from "./assets/work4.jpg";
+import work6 from "./assets/me.jpg";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
@@ -138,8 +138,8 @@ export const workImages = [
     img: work4,
     name: "project 4",
     category: "web",
-    git: "",
-    link: "https://waved-zingmp3.vercel.app/",
+    git: "https://github.com/WaveD2/WaveDpodcast",
+    link: "https://wave-podcast.vercel.app/",
   },
   {
     id: 5,
@@ -147,17 +147,27 @@ export const workImages = [
     name: "project 5",
     link: "https://waved2.github.io/myTour/",
     git: "https://github.com/WaveD2/myTour",
-    category: "app",
+    category: "web",
   },
   {
     id: 6,
     img: work6,
     name: "project 6",
+    link: "",
+    git: "",
     category: "design",
   },
+  // {
+  //   id: 7,
+  //   img: work6,
+  //   name: "project 6",
+  //   link: "https://waved2.github.io/myCaro/",
+  //   git: "https://github.com/WaveD2/myCaro",
+  //   category: "game",
+  // },
 ];
 
-export const workNavs = ["All", "Web", "App", "Design"];
+export const workNavs = ["All", "Web", "Game", "Mobile"];
 
 export const contacts = [
   {
