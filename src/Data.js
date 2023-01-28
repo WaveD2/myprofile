@@ -99,8 +99,8 @@ export const workImages = [
     id: 5,
     img: work5,
     name: "project 5",
-    link: "https://waved2.github.io/myTour/",
-    git: "https://github.com/WaveD2/myTour",
+    link: "https://github.com/WaveD2/WaveD-Travel",
+    git: "https://waved2.github.io/WaveD-Travel/",
     category: "html/css/js",
   },
   {
