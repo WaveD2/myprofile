@@ -66,7 +66,7 @@ export const icons = [
 export const workImages = [
   {
     id: 1,
-    img: work1,
+    img: work8,
     name: "project 1",
     category: "react",
     link: "https://shop-huongmy.vercel.app",
@@ -74,7 +74,7 @@ export const workImages = [
   },
   {
     id: 2,
-    img: work2,
+    img: work1,
     name: "project 2",
     category: "react",
     link: " https://waved-admin.vercel.app/ ",
@@ -82,7 +82,7 @@ export const workImages = [
   },
   {
     id: 3,
-    img: work3,
+    img: work2,
     name: "project 3",
     category: "react",
     link: " https://waved-education.vercel.app/",
@@ -90,7 +90,7 @@ export const workImages = [
   },
   {
     id: 4,
-    img: work4,
+    img: work3,
     name: "project 4",
     category: "react",
     link: " https://wave-demonetflix.vercel.app/",
@@ -98,7 +98,7 @@ export const workImages = [
   },
   {
     id: 5,
-    img: work5,
+    img: work4,
     name: "project 5",
     category: "react",
     git: "https://github.com/WaveD2/WaveDpodcast",
@@ -106,7 +106,7 @@ export const workImages = [
   },
   {
     id: 6,
-    img: work6,
+    img: work5,
     name: "project 6",
     link: "https://github.com/WaveD2/WaveD-Travel",
     git: "https://waved2.github.io/WaveD-Travel/",
@@ -114,7 +114,7 @@ export const workImages = [
   },
   {
     id: 7,
-    img: work7,
+    img: work6,
     name: "project 7",
     link: "https://wavedzingmp3.vercel.app/",
     git: "https://github.com/WaveD2/zingmp3",
@@ -122,7 +122,7 @@ export const workImages = [
   },
   {
     id: 8,
-    img: work8,
+    img: work7,
     name: "project 8",
     link: "https://waved2.github.io/myCaro/",
     git: "https://github.com/WaveD2/myCaro",
