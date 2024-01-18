@@ -25,6 +25,8 @@ import work5 from "./assets/work5.jpg";
 import work6 from "./assets/work6.jpg";
 import work7 from "./assets/work7.png";
 import work8 from "./assets/work8.jpg";
+import work9 from "./assets/work9.jpg";
+import work10 from "./assets/work10.jpg";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
@@ -116,7 +118,7 @@ export const workImages = [
     id: 7,
     img: work6,
     name: "project 7",
-    link: "https://wavedzingmp3.vercel.app/",
+    link: "https://waved-zingmp3.vercel.app",
     git: "https://github.com/WaveD2/zingmp3",
     category: "react",
   },
@@ -128,9 +130,25 @@ export const workImages = [
     git: "https://github.com/WaveD2/myCaro",
     category: "html/css/js",
   },
+  {
+    id: 9,
+    img: work9,
+    name: "project 9",
+    link: "https://shophuongmy.vercel.app",
+    git: "https://github.com/WaveD2/shophuongmy-ecommer",
+    category: "Fullstack",
+  },
+  {
+    id: 10,
+    img: work10,
+    name: "project 10",
+    link: "https://shopcar-waved.vercel.app/",
+    git: "https://github.com/WaveD2/shop-car",
+    category: "NextJs",
+  },
 ];
 
-export const workNavs = ["All", "React", "HTML/CSS/JS"];
+export const workNavs = ["All", "React", "HTML/CSS/JS", "Fullstack", "NextJs"];
 
 export const contacts = [
   {
